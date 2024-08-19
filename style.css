@@ -1,0 +1,51 @@
+
+header {color:black;
+    text-align: center;
+      background-color: rgb(163, 195, 201);
+      height: 200px;
+      text-align: center;
+      background-image: url('../Images/Header background.png');
+      background-position: 20% 0;
+      margin: 0;
+      padding: 0;
+
+}
+h{
+font-family: "Reddit Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  padding: 130px;
+}
+.menuContainer{
+    color:blue;
+    display: inline-block;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 3;
+    display: flex;
+}
+.menuItem{
+    display: inline-block
+}
+ooter{
+    background-color: grey;
+    height: 40px;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.iconframe{
+    border-radius: 20%
+}
